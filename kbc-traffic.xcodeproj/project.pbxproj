@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D12CA322C64AACA0039694A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12CA312C64AACA0039694A /* AppDelegate.swift */; };
+		6D12CA342C64AACA0039694A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12CA332C64AACA0039694A /* SceneDelegate.swift */; };
+		6D12CA392C64AACA0039694A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6D12CA382C64AACA0039694A /* Base */; };
+		6D12CA3B2C64AACC0039694A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D12CA3A2C64AACC0039694A /* Assets.xcassets */; };
+		6D12CA3E2C64AACC0039694A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6D12CA3D2C64AACC0039694A /* Base */; };
+		6D12CA532C64AACC0039694A /* ModelNameLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12CA522C64AACC0039694A /* ModelNameLength.swift */; };
+		6D12CA552C64AACC0039694A /* kbc_trafficUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12CA542C64AACC0039694A /* kbc_trafficUITestsLaunchTests.swift */; };
+		6DFDEEC62C64B3BE003BC4B6 /* InputDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEEC52C64B3BE003BC4B6 /* InputDetailsTableViewController.swift */; };
+		6DFDEED12C64B544003BC4B6 /* InputDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEEC52C64B3BE003BC4B6 /* InputDetailsTableViewController.swift */; };
+		6DFDEED42C64DDB3003BC4B6 /* TrafficLightItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEED32C64DDB3003BC4B6 /* TrafficLightItemView.swift */; };
+		6DFDEED72C64EB6D003BC4B6 /* TrafficLightCommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEED62C64EB6D003BC4B6 /* TrafficLightCommandType.swift */; };
+		6DFDEEDD2C64F3B7003BC4B6 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEEDC2C64F3B7003BC4B6 /* SharedData.swift */; };
+		6DFDEEDE2C64F3B7003BC4B6 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEEDC2C64F3B7003BC4B6 /* SharedData.swift */; };
+		6DFDEEE82C6511B1003BC4B6 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEEE62C6511B1003BC4B6 /* TrafficLight.swift */; };
+		6DFDEEE92C6515C7003BC4B6 /* TrafficLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEECB2C64B53F003BC4B6 /* TrafficLightViewController.swift */; };
+		6DFDEEEA2C6515DE003BC4B6 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEED92C64EB85003BC4B6 /* Command.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D12CA4F2C64AACC0039694A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D12CA262C64AACA0039694A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D12CA2D2C64AACA0039694A;
+			remoteInfo = "kbc-traffic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D12CA2E2C64AACA0039694A /* kbc-traffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kbc-traffic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D12CA312C64AACA0039694A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D12CA332C64AACA0039694A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D12CA382C64AACA0039694A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D12CA3A2C64AACC0039694A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D12CA3D2C64AACC0039694A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D12CA3F2C64AACC0039694A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D12CA4E2C64AACC0039694A /* kbc-trafficUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kbc-trafficUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D12CA522C64AACC0039694A /* ModelNameLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelNameLength.swift; sourceTree = "<group>"; };
+		6D12CA542C64AACC0039694A /* kbc_trafficUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kbc_trafficUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DFDEEC52C64B3BE003BC4B6 /* InputDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDetailsTableViewController.swift; sourceTree = "<group>"; };
+		6DFDEECB2C64B53F003BC4B6 /* TrafficLightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightViewController.swift; sourceTree = "<group>"; };
+		6DFDEED32C64DDB3003BC4B6 /* TrafficLightItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightItemView.swift; sourceTree = "<group>"; };
+		6DFDEED62C64EB6D003BC4B6 /* TrafficLightCommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightCommandType.swift; sourceTree = "<group>"; };
+		6DFDEED92C64EB85003BC4B6 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		6DFDEEDC2C64F3B7003BC4B6 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		6DFDEEE52C64F960003BC4B6 /* kbc-traffic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "kbc-traffic.entitlements"; sourceTree = "<group>"; };
+		6DFDEEE62C6511B1003BC4B6 /* TrafficLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D12CA2B2C64AACA0039694A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D12CA4B2C64AACC0039694A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D12CA252C64AACA0039694A = {
+			isa = PBXGroup;
+			children = (
+				6D12CA302C64AACA0039694A /* kbc-traffic */,
+				6D12CA512C64AACC0039694A /* kbc-trafficUITests */,
+				6D12CA2F2C64AACA0039694A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D12CA2F2C64AACA0039694A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D12CA2E2C64AACA0039694A /* kbc-traffic.app */,
+				6D12CA4E2C64AACC0039694A /* kbc-trafficUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D12CA302C64AACA0039694A /* kbc-traffic */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDEEE52C64F960003BC4B6 /* kbc-traffic.entitlements */,
+				6DFDEEC72C64B4BE003BC4B6 /* View Controllers */,
+				6D12CA312C64AACA0039694A /* AppDelegate.swift */,
+				6D12CA332C64AACA0039694A /* SceneDelegate.swift */,
+				6DFDEECA2C64B4EA003BC4B6 /* Resources */,
+			);
+			path = "kbc-traffic";
+			sourceTree = "<group>";
+		};
+		6D12CA512C64AACC0039694A /* kbc-trafficUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D12CA522C64AACC0039694A /* ModelNameLength.swift */,
+				6DFDEEE62C6511B1003BC4B6 /* TrafficLight.swift */,
+				6D12CA542C64AACC0039694A /* kbc_trafficUITestsLaunchTests.swift */,
+			);
+			path = "kbc-trafficUITests";
+			sourceTree = "<group>";
+		};
+		6DFDEEC72C64B4BE003BC4B6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDEEC92C64B4DA003BC4B6 /* Traffic Light */,
+				6DFDEEC82C64B4CC003BC4B6 /* Input Details */,
+				6DFDEEDC2C64F3B7003BC4B6 /* SharedData.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6DFDEEC82C64B4CC003BC4B6 /* Input Details */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDEEC52C64B3BE003BC4B6 /* InputDetailsTableViewController.swift */,
+			);
+			path = "Input Details";
+			sourceTree = "<group>";
+		};
+		6DFDEEC92C64B4DA003BC4B6 /* Traffic Light */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDEED22C64DD97003BC4B6 /* Views */,
+				6DFDEECB2C64B53F003BC4B6 /* TrafficLightViewController.swift */,
+				6DFDEED62C64EB6D003BC4B6 /* TrafficLightCommandType.swift */,
+				6DFDEED92C64EB85003BC4B6 /* Command.swift */,
+			);
+			path = "Traffic Light";
+			sourceTree = "<group>";
+		};
+		6DFDEECA2C64B4EA003BC4B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D12CA372C64AACA0039694A /* Main.storyboard */,
+				6D12CA3C2C64AACC0039694A /* LaunchScreen.storyboard */,
+				6D12CA3A2C64AACC0039694A /* Assets.xcassets */,
+				6D12CA3F2C64AACC0039694A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DFDEED22C64DD97003BC4B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDEED32C64DDB3003BC4B6 /* TrafficLightItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D12CA2D2C64AACA0039694A /* kbc-traffic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D12CA582C64AACC0039694A /* Build configuration list for PBXNativeTarget "kbc-traffic" */;
+			buildPhases = (
+				6D12CA2A2C64AACA0039694A /* Sources */,
+				6D12CA2B2C64AACA0039694A /* Frameworks */,
+				6D12CA2C2C64AACA0039694A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kbc-traffic";
+			productName = "kbc-traffic";
+			productReference = 6D12CA2E2C64AACA0039694A /* kbc-traffic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D12CA4D2C64AACC0039694A /* kbc-trafficUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D12CA5E2C64AACC0039694A /* Build configuration list for PBXNativeTarget "kbc-trafficUITests" */;
+			buildPhases = (
+				6D12CA4A2C64AACC0039694A /* Sources */,
+				6D12CA4B2C64AACC0039694A /* Frameworks */,
+				6D12CA4C2C64AACC0039694A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D12CA502C64AACC0039694A /* PBXTargetDependency */,
+			);
+			name = "kbc-trafficUITests";
+			productName = "kbc-trafficUITests";
+			productReference = 6D12CA4E2C64AACC0039694A /* kbc-trafficUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D12CA262C64AACA0039694A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6D12CA2D2C64AACA0039694A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6D12CA4D2C64AACC0039694A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6D12CA2D2C64AACA0039694A;
+					};
+				};
+			};
+			buildConfigurationList = 6D12CA292C64AACA0039694A /* Build configuration list for PBXProject "kbc-traffic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D12CA252C64AACA0039694A;
+			productRefGroup = 6D12CA2F2C64AACA0039694A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D12CA2D2C64AACA0039694A /* kbc-traffic */,
+				6D12CA4D2C64AACC0039694A /* kbc-trafficUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D12CA2C2C64AACA0039694A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D12CA3B2C64AACC0039694A /* Assets.xcassets in Resources */,
+				6D12CA3E2C64AACC0039694A /* Base in Resources */,
+				6D12CA392C64AACA0039694A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D12CA4C2C64AACC0039694A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D12CA2A2C64AACA0039694A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFDEEC62C64B3BE003BC4B6 /* InputDetailsTableViewController.swift in Sources */,
+				6D12CA322C64AACA0039694A /* AppDelegate.swift in Sources */,
+				6DFDEED72C64EB6D003BC4B6 /* TrafficLightCommandType.swift in Sources */,
+				6DFDEED42C64DDB3003BC4B6 /* TrafficLightItemView.swift in Sources */,
+				6DFDEEE92C6515C7003BC4B6 /* TrafficLightViewController.swift in Sources */,
+				6DFDEEDD2C64F3B7003BC4B6 /* SharedData.swift in Sources */,
+				6D12CA342C64AACA0039694A /* SceneDelegate.swift in Sources */,
+				6DFDEEEA2C6515DE003BC4B6 /* Command.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D12CA4A2C64AACC0039694A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D12CA532C64AACC0039694A /* ModelNameLength.swift in Sources */,
+				6DFDEED12C64B544003BC4B6 /* InputDetailsTableViewController.swift in Sources */,
+				6DFDEEE82C6511B1003BC4B6 /* TrafficLight.swift in Sources */,
+				6DFDEEDE2C64F3B7003BC4B6 /* SharedData.swift in Sources */,
+				6D12CA552C64AACC0039694A /* kbc_trafficUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D12CA502C64AACC0039694A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D12CA2D2C64AACA0039694A /* kbc-traffic */;
+			targetProxy = 6D12CA4F2C64AACC0039694A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D12CA372C64AACA0039694A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D12CA382C64AACA0039694A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D12CA3C2C64AACC0039694A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D12CA3D2C64AACC0039694A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D12CA562C64AACC0039694A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D12CA572C64AACC0039694A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D12CA592C64AACC0039694A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "kbc-traffic/kbc-traffic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kbc-traffic/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.apps.kbc-traffic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D12CA5A2C64AACC0039694A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "kbc-traffic/kbc-traffic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kbc-traffic/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.apps.kbc-traffic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D12CA5F2C64AACC0039694A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.apps.kbc-trafficUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kbc-traffic";
+			};
+			name = Debug;
+		};
+		6D12CA602C64AACC0039694A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.apps.kbc-trafficUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kbc-traffic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D12CA292C64AACA0039694A /* Build configuration list for PBXProject "kbc-traffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D12CA562C64AACC0039694A /* Debug */,
+				6D12CA572C64AACC0039694A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D12CA582C64AACC0039694A /* Build configuration list for PBXNativeTarget "kbc-traffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D12CA592C64AACC0039694A /* Debug */,
+				6D12CA5A2C64AACC0039694A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D12CA5E2C64AACC0039694A /* Build configuration list for PBXNativeTarget "kbc-trafficUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D12CA5F2C64AACC0039694A /* Debug */,
+				6D12CA602C64AACC0039694A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D12CA262C64AACA0039694A /* Project object */;
+}
